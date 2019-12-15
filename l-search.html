@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="university project">
+    <meta name="author" content="Saman amiri">
+    <title>Saman Amiri</title>
+    <!-- Favicon -->
+    <link href="./img/brand/favicon.png" rel="icon" type="image/png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- Icons -->
+    <link href="./vendor/nucleo/css/nucleo.css" rel="stylesheet">
+    <link href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Argon CSS -->
+    <link type="text/css" href="./css/argon.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sidenav -->
+    <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+        <div class="container-fluid">
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main"
+                aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+                <!-- Collapse header -->
+                <div class="navbar-collapse-header d-md-none">
+                    <div class="row">
+                        <div class="col-6 offset-6 collapse-close">
+                            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                                data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false"
+                                aria-label="Toggle sidenav">
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <i class="ni ni-chart-pie-35 text-primary"></i> Dashbaord
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./b-search.html">
+                            <i class="ni ni-tv-2 text-green"></i> Binary search
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./l-search.html">
+                            <i class="ni ni-planet text-teal"></i> Linear search
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./q-sort.html">
+                            <i class="ni ni-bullet-list-67 text-red"></i> Quicksort
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main content -->
+    <div class="main-content">
+        <!-- Top navbar -->
+        <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="./index.html">Dashboard</a>
+                <!-- User -->
+                <ul class="navbar-nav align-items-center d-none d-md-flex">
+                    <li class="nav-item dropdown">
+                        <span class="mb-0 text-sm  font-weight-bold text-white">Saman Amiri</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Header -->
+        <div class="header bg-gradient-teal pb-8 pt-5 pt-md-8">
+            <div class="container-fluid">
+                <div class="header-body">
+                    <div class="card col-md-12">
+                        <div class="card-body">
+                            <h5 class="card-title">linear search</h5>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-alternative number" id="listCreator"
+                                        placeholder="Enter a number for list and press enter...">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-alternative number" id="searchKey"
+                                        placeholder="Enter a number to search and press search...">
+                                </div>
+                            </div>
+                            <div class="col-md-12 lists"></div>
+                            <div class="col-md-12 text-right">
+                                <button id="searchButton" type="button" class="btn btn-success">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page content -->
+        <div class="container-fluid mt--7">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <!-- Argon Scripts -->
+    <!-- Core -->
+    <script src="./vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Optional JS -->
+    <script src="./vendor/chart.js/dist/Chart.min.js"></script>
+    <script src="./vendor/chart.js/dist/Chart.extension.js"></script>
+    <!-- Argon JS -->
+    <script src="./js/argon.min.js"></script>
+    <script src="./js/create-list.js"></script>
+    <script src="./js/l-search.js"></script>
+</body>
+
+</html>
